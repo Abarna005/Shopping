@@ -1,0 +1,196 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins", sans-serif;
+  box-sizing: border-box;
+}
+
+img {
+  width: 100px;
+}
+#header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3%;
+}
+nav {
+  word-spacing: 25pt;
+}
+nav a {
+  color: black;
+  font-size: 16px;
+  font-weight: medium;
+  text-decoration: none;
+  /* font-style: normal; */
+}
+nav button {
+  font-size: 16px;
+  padding: 5px;
+  color: white;
+  font-weight: medium;
+  border-radius: 7px;
+  background-color: black;
+}
+/* main */
+.wrap-main {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 500px;
+  margin: 2%;
+  border-radius: 59px;
+  background-color: #f4f6f5;
+}
+.main {
+  padding: 8%;
+}
+h3 {
+  display: table-caption;
+  font-size: 50px;
+  letter-spacing: 1pt;
+}
+#highlight {
+  display: inline-block; /* Ensures the transform works on inline elements */
+  transform: rotate(-2deg); /* Adjust the degree as needed */
+  /* padding-right: 6rem; */
+  font-weight: bolder;
+  padding: 0px 6rem 0px 10px;
+}
+p {
+  margin-top: 2%;
+  color: #191818;
+  font-size: large;
+}
+.shop-now {
+  color: white;
+  outline: none;
+  border: none;
+  font-weight: bold;
+  letter-spacing: 1pt;
+  padding: 10px;
+  margin-top: 6%;
+  border-radius: 5px;
+  background-color: black;
+}
+.profile-image {
+  padding: 4% 5% 0 0;
+}
+/* brands */
+.brand {
+  padding: 1% 2% 1% 2%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: #ebd96b;
+}
+.brand img {
+  width: 100px;
+  height: auto;
+}
+/* New arrivals */
+#new-arrival {
+  margin: 2%;
+  padding: 2%;
+}
+#arrival-product {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.arrival-content {
+  line-height: 2;
+}
+.arrival-content img {
+  width: 250px;
+}
+figcaption {
+  font-size: 14px;
+  color: rgb(49, 47, 47);
+}
+/* sale now */
+#sale-now {
+  height: 450px;
+  background-color: #e6c744;
+}
+.salenow-content h3 span {
+  display: inline-block;
+  transform: rotate(-2deg);
+  padding: 2%;
+  font-weight: bolder;
+  background-color: #ffffff;
+}
+.salenow-container {
+  display: flex;
+  gap: 20%;
+  align-items: center;
+}
+/* Youngs Favourite */
+.young-favourite-content {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 2%;
+}
+/* download app */
+#download-app {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.download-app-content h1 {
+  font-weight: bolder;
+}
+/* community */
+#community {
+  height: 400px;
+  background-color: #e5c643;
+}
+.community-container {
+  text-align: center;
+  padding: 5%;
+}
+.community-container h1 {
+  color: white;
+  font-size: 34px;
+}
+.community-container p {
+  color: white;
+}
+.wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 15px;
+  /* height: 100vh; Full viewport height */
+}
+
+.input-container {
+  position: relative;
+  width: 300px;
+}
+
+input {
+  padding: 10px;
+  width: 100%;
+  outline: none;
+  border: none;
+  background-color: none;
+  border-radius: 5px;
+  /* padding-right: 80px; Space for the button */
+  /* box-sizing: border-box; */
+}
+
+.send-button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  border: none;
+  border-radius: 5px;
+  background-color: black;
+  color: white;
+  padding: 0 20px;
+  cursor: pointer;
+}
