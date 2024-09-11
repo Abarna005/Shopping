@@ -1,0 +1,3 @@
+### Create a simple landing page using Html and css💖✔ ...
+
+ ![Shopping App](https://github.com/user-attachments/assets/0e6cb1ca-3d1e-4f5e-896a-995dd6608401)
